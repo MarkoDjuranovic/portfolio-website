@@ -1,4 +1,4 @@
-import "./header.css";
+import "./header.scss";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 

@@ -1,8 +1,8 @@
 // Project1Page.jsx
 
 import React from "react";
-import "./body.css";
-import "./project1.css";
+import "./body.scss";
+import "./project1.scss";
 
 const Project1Page = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./cards.css";
+import "./cards.scss";
 
 const ProjectCard = ({ imageUrl, title, description, onClick }) => {
   return (

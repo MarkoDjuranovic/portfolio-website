@@ -1,10 +1,9 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import ProjectCard from "./cards.jsx";
 import SocialIcons from "./socials.jsx";
 
-import "./body.css";
+import "./body.scss";
 
 const Body = () => {
   const projects = [
