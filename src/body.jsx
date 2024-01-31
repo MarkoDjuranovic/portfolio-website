@@ -6,31 +6,14 @@ import SocialIcons from "./socials.jsx";
 import "./body.scss";
 
 const Body = () => {
-  const projects = [
-    {
-      title: "DoseCheck Lite",
-      description: "Health app for people with type II diabetes",
-      imageUrl: "dose-check.png",
-    },
-    {
-      title: "Journey-To-GO",
-      description: "Making deliverables faster",
-      imageUrl: "figma.png",
-    },
-    {
-      title: "PawPrints",
-      description: "Long Distance Pet Transportation",
-      imageUrl: "paw.jpg",
-    },
-    // Add more projects as needed
-  ];
+
   return (
     <div className="main-body">
       <section id="home" className="intro-section">
         <div className="video-container">
-          <video autoPlay loop muted>
+          {/* <video autoPlay loop muted>
             <source src="background-video.mp4" type="video/mp4" />
-          </video>
+          </video> */}
           <div className="overlay"></div>
           <div className="overlay-text">
             <div className="cover">
