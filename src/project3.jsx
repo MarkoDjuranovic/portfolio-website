@@ -124,7 +124,7 @@ const Project3Page = () => {
           aligned with our target user group.
         </p>
 
-        <img className="images" src="/user-research.svg" alt="" />
+        <img className="images" src="/user-research.svg" alt="User Research" />
         <h3>Our main objective was to </h3>
         <ol>
           <li>
@@ -157,7 +157,7 @@ const Project3Page = () => {
           to easing the overall process.
         </p>
 
-        <img className="images" src="/affinity-pawprints.png" alt="" />
+        <img className="images" src="/affinity-pawprints.png" alt="Affinity Diagram" />
         <p>
           We synthesized our interview data into the following set of insights,
           as depicted in our affinity diagram. Subsequently, we formulated
