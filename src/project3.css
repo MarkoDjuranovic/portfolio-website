@@ -1,0 +1,159 @@
+.wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.center-div {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.images {
+  max-width: 100%;
+  height: auto;
+}
+#project-overview {
+  height: fit-content;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+  }
+  p {
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+    text-align: left;
+    letter-spacing: 0.01em;
+  }
+  img {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+.case-study {
+  max-width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-bottom-20px {
+  margin-bottom: 20px;
+}
+#overview {
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+  }
+}
+
+#problem {
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+  }
+  line-height: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  p {
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+#solution {
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+  }
+  line-height: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  p {
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+#user-research,
+#ideation,
+#prototyping {
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+  }
+  line-height: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  p {
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  li {
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  h4,
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+  }
+}
+
+.split-screen-prototyping {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}

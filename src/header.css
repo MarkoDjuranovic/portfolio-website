@@ -1,0 +1,116 @@
+.header {
+  height: 5rem;
+  padding: 0.5rem 2rem;
+  width: 100vw;
+  max-width: 75rem;
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  /* top: 0;
+  z-index: 3; */
+  margin: 0 auto;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 10px;
+}
+.nav-button {
+  cursor: pointer;
+}
+.logo {
+  object-fit: cover;
+  width: 15rem;
+  height: 5rem;
+}
+
+.nav-bar {
+  display: flex;
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+
+    li {
+      margin: 0 15px;
+
+      list-style: none;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 10px 10px 0px 10px;
+      color: black;
+      padding-bottom: 10px;
+
+      &:hover {
+        transition: border-bottom 0.3s ease, transform 0.65s ease;
+        border-bottom: 1px solid black;
+        transform: translateY(-3px);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #ffcc00;
+        }
+      }
+    }
+  }
+}
+
+nav .hamburger-menu {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  cursor: pointer;
+}
+nav .hamburger-menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  nav .hamburger-menu {
+    display: flex;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: start;
+    ul {
+      .nav-bar {
+        flex-direction: column;
+        align-items: start;
+        ul {
+          margin-top: 10px; /* Add margin between list items for spacing */
+        }
+      }
+      margin-top: 10px; /* Add margin between list items for spacing */
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}

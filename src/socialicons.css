@@ -1,0 +1,20 @@
+/* socialIcons.css */
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 40px; /* Adjust the size of the circle */
+    height: 40px; /* Adjust the size of the circle */
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .social-icons img {
+    width: 100%;
+    height: auto;
+  }
+  
