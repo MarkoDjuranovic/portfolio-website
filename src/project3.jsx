@@ -157,7 +157,11 @@ const Project3Page = () => {
           to easing the overall process.
         </p>
 
-        <img className="images" src="/affinity-pawprints.png" alt="Affinity Diagram" />
+        <img
+          className="images"
+          src="/affinity-pawprints.png"
+          alt="Affinity Diagram"
+        />
         <p>
           We synthesized our interview data into the following set of insights,
           as depicted in our affinity diagram. Subsequently, we formulated
@@ -316,10 +320,14 @@ const Project3Page = () => {
           paper prototype I developed:
         </p>
 
-        <h3>Low Fidelity Prototype </h3>
-        <video controls>
-          <source src="/low-fidelity.mp4" type="video/mp4" />
-        </video>
+        <h3>Low Fidelity Prototypes </h3>
+        <div className="iframe-container">
+          <iframe
+            className="responsive-iframe"
+            src="https://drive.google.com/file/d/1lw3voEjuOGXa5Lg08kpwf7AlyB9rR4Dq/preview"
+            allow="autoplay"
+          ></iframe>
+        </div>
 
         <h2>High Fidelity Prototype</h2>
 
@@ -329,15 +337,11 @@ const Project3Page = () => {
           initial high-fidelity iteration for both our mobile and in-flight
           applications.
         </p>
-        <h2>1. Checking pet's current location and status</h2>
         <div className="split-screen-prototyping">
-          <div className="left">
-            <h1>Low Fidelity</h1>
-          </div>
-
-          <div className="right">
-            <h1>High Fidelity</h1>
-          </div>
+          <img className="images" src="/prototypes.png" alt="Screen Prototypes" />
+          <br />
+          <br />
+          
         </div>
       </div>
     </div>

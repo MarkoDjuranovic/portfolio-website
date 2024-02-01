@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProjectCard from "./cards.jsx";
 import SocialIcons from "./socials.jsx";
-
+import VideoBg from "./assets/background-video.mp4"  
 import "./body.scss";
 
 const Body = () => {
@@ -11,9 +11,7 @@ const Body = () => {
     <div className="main-body">
       <section id="home" className="intro-section">
         <div className="video-container">
-          {/* <video autoPlay loop muted>
-            <source src="background-video.mp4" type="video/mp4" />
-          </video> */}
+        <video src={VideoBg}  autoPlay loop muted></video>
           <div className="overlay"></div>
           <div className="overlay-text">
             <div className="cover">
