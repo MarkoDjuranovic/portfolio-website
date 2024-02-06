@@ -2,15 +2,15 @@
 
 import React from "react";
 import "./body.scss";
-import "./project1.scss";
+import "./project3.scss";
 
 const Project1Page = () => {
   return (
-    <div>
-      <div className="container-wrapper">
-        <section id="cover">
-          <div className="row">
-            <div className="overview">
+    <div className="wrapper">
+    
+        <section id="project-overview">
+          <div className="">
+            <div className="column">
               <h1>DoseCheck Lite</h1>
 
               <h3>Summer Internship Application</h3>
@@ -18,39 +18,43 @@ const Project1Page = () => {
               <h3>
                 DoseCheck is a digital therapeutic app to help patients living
                 with type 2 diabetes find the right dose of insulin to manage
-                their blood sugar levels{" "}
+                their blood sugar levels
               </h3>
             </div>
-            <div className="container-image">
+            <div id="center">
               <img
-                className="cover-image"
+                className="images"
                 src="/dose-check2.png"
-                alt="Homescreen Dosecheck App"
+                alt="Dose Check App"
               />
             </div>
           </div>
         </section>
 
         <div className="case-study">
-          <div className="container u-border-charcoal">
-            <div className="third">
-              <div className="team-text margin-bottom bold">ROLE</div>
-              <div className="team-text ">UX Designer</div>
-            </div>
-            <div className="third">
-              <div className="team-text  margin-bottom bold">TEAM</div>
-              <div className="team-text ">Amalgam Rx Design Team</div>
-            </div>
-            <div className="third">
-              <div className="team-text  margin-bottom bold">DURATION</div>
-              <div className="team-text ">Jun-Aug 2023</div>
+        <div className="info u-border-charcoal">
+          <div className="third margin-bottom-20px">
+            <div className="team-text margin-bottom bold">ROLE</div>
+            <div className="team-text ">UX/UI Designer</div>
+          </div>
+          <div className="third margin-bottom-20px">
+            <div className="team-text  margin-bottom bold">TEAM</div>
+            <div className="team-text ">Amalgam Design Team</div>
+          </div>
+          <div className="third margin-bottom-20px">
+            <div className="team-text  margin-bottom bold">DURATION</div>
+            <div className="team-text ">
+              Jun-Aug 2023 <br />
+              (3 mo. total)
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="overview">
-            <h1>Overview</h1>
-            <h2>Build a sign up flow for DoseCheck Lite (IOS and Android)</h2>
+      </div>
+        <div id="overview">
+        <div className="">
+          <h1>Overview</h1>
+        </div>
+        <h3>Build a sign up flow for DoseCheck Lite (IOS and Android)</h3>
             <h3>Fixed existing UX issues</h3>
             <p>
               When I joined the design team in the summer of 23 the product only
@@ -59,17 +63,18 @@ const Project1Page = () => {
               patients could register on their own, with functionality in the
               app that did not require regulatory approval
             </p>
-          </div>
-          <div className="container-image">
+        <div className="center-div">
+          <div className="">
             <img
-              className="cover-image"
+              className="images"
               src="/image1.svg"
               alt="Homescreen Dosecheck App"
             />
           </div>
         </div>
+      </div>
 
-        <div className="problem">
+        <div id="problem">
           <h1>Starting Problem</h1>
           <p>
             <i>
@@ -85,15 +90,18 @@ const Project1Page = () => {
           </p>
 
           <p>
-            Why it matters: Lorem ipsum dolor sit amet consectetur adipisicing
+            {/* Why it matters: Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Libero, temporibus. Minus, voluptatum at? Iure, consectetur
             natus! Nobis quod doloribus, non eius aut mollitia animi optio
-            blanditiis atque dolorum inventore ratione!
+            blanditiis atque dolorum inventore ratione! */}
           </p>
         </div>
 
-        <div className="user-research"></div>
-      </div>
+        <div className="user-research">
+
+          <h1>More to Come! I update my portfolio daily! Check later for more content </h1>
+        </div>
+      
     </div>
   );
 };
